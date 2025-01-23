@@ -1,0 +1,126 @@
+  366  history | tail -n 100 >> problem2_cmd_history.txt
+  367  code problem2_cmd_history.txt
+  368  git add .
+  369  git commite -m "Added commmand history file"
+  370  git commit -m "Added commmand history file"
+  371  git push origin main
+  372  cd ..
+  373  cd Archive_P1
+  374  gti remote -v
+  375  git remote -v
+  376  mkdir Problem_3
+  377  cd Problem_3/
+  378  touch convert.sh
+  379  code convert.sh
+  380  chmod +x convert.sh
+  381  ./convert.sh
+  382  125064
+  383  ./convert.sh
+  384  7816
+  385  ./convert.sh
+  386  ./convert.sh
+  387  ls
+  388  ./convert.sh
+  389  ls
+  390  ./convert.sh
+  391  ls
+  392  ./convert.sh
+  393  ls
+  394  ./convert.sh
+  395  ls
+  396  tocuh convertion_result.txt
+  397  touch convertion_result.txt
+  398  ./convert.sh
+  399  ls
+  400  code convertion_result.txt
+  401  ./convert.sh
+  402  ./convert.sh
+  403  ./convert.sh
+  404  rm convertion_result.txt
+  405  touch conversion_results.txt
+  406  ./convert.sh
+  407  code conversion_results.txt
+  408  git add .
+  409  git commit -m "Problem 3 additions"
+  410  git push origin main
+  411  cd ..
+  412  git checkout -b feature_branch
+  413  echo "hello world!" > README.md
+  414  git commit -m "README.md file added to new feature_branch"
+  415  git add .
+  416  git commit -m "README.md file added to new feature_branch"
+  417  git push origin feature_branch
+  418  git branch
+  419  rm .gitignore p1_basic_unix.tar.gz
+  420  rm -r Problem_3
+  421  git commite -m "Removed main branch files"
+  422  git commit -m "Removed main branch files"
+  423  git push origin main
+  424  git push origin feature_branch
+  425  git commit -m "Removed main branch files"
+  426  git add .
+  427  git commit -m "Removed main branch files"
+  428  git push origin feature_branch
+  429  git checkout main
+  430  git pull origin main
+  431  git merge feature_branch
+  432  git push origin main
+  433  git reset --soft HEAD~1
+  434  git log
+  435  git reset hard e6824137a1c7f200c5c70d781d4217a41f960816
+  436  git reset --hard e6824137a1c7f200c5c70d781d4217a41f960816
+  437  git push --force origin main
+  438  git reset --hard 58bd15a1a6722cac2426c2edd38e4ad6aa164a6b
+  439  git push --force origin main
+  440  git checkout feature_branch
+  441  git add .
+  442  ls
+  443  git featch origin
+  444  git featch origin
+  445  git fetch origin
+  446  git add .
+  447  ls
+  448  git log
+  449  git status
+  450  git checkout main
+  451  git status
+  452  git pull origin main
+  453  git merge feature_branch
+  454  git commit -m "Merge feature_branch into main"
+  455  git push origin main
+  456  git status
+  457  git log
+  458  git reset --hard 6b65ac288ce70b7cc60ddb4a8e4ce24d2d42d753
+  459  git branch
+  460  git push origin main
+  461  git push --force origin main
+  462  git branch -d feature_branch
+  463  git branch -D feature_branch
+  464  git push origin --delete feature_branch
+  465  git branch
+  466  git branch -r
+  467  git checkout -b feature_branch
+  468  echo "hello world" > README.md
+  469  git add README.md
+  470  git push origin feature_branch
+  471  git checkout main
+  472  git merge feature_branch
+  473  git push origin main
+  474  git branch --merged
+  475  git log
+  476  git checkout feature_branch
+  477  echo "hello world" > README.md
+  478  code README.md
+  479  git commit -m "Edited README file"
+  480  git push origin feature_branch
+  481  git checkout main
+  482  git merge feature_branch
+  483  git branch --merged
+  484  git puhs origin main
+  485  git push origin main
+  486  code README.md
+  487  git pull origin main
+  488  code README.md
+  489  cat README.md
+  490  history | tail -n 200 >> problem3&4_cmd_history.txt
+  491  history | tail -n 200 >> P3_P4_cmd_history.txt
